@@ -13,4 +13,10 @@ public class Player {
     this.activeDeck = new Deck(new ArrayList<>());
     this.discardPile = new Deck(new ArrayList<>());
   }
+
+  public Player(String name, Deck activeDeck) {
+    this.name = name;
+    this.activeDeck = activeDeck;
+    this.discardPile = new Deck(new ArrayList<>());
+  }
 }

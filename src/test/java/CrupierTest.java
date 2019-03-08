@@ -1,10 +1,4 @@
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
-
-import java.util.Arrays;
-import java.util.List;
-
-import static org.testng.Assert.*;
 
 /**
  * @author Jakub Czajka
@@ -12,8 +6,9 @@ import static org.testng.Assert.*;
 public class CrupierTest {
 
   Crupier crupier;
+
   @BeforeTest
-  public void beforeTest(){
+  public void beforeTest() {
     crupier = new Crupier();
   }
 

@@ -12,7 +12,7 @@ public class Card {
 
   @Override
   public String toString() {
-    return  cardValue.getName() + cardSuit.getColor();
+    return cardValue.getName() + cardSuit.getColor();
   }
 
   public int getValue() {
